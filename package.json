@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy.open": "npx cypress open",
     "cy.run": "npx cypress run",
-    "percy": "set PERCY_TOKEN={305740ac6cafedc50db2859329941ea8500b82e5bd8662fd009d3585ad853b5c} -- npx cypress run"
+    "percy": "set PERCY_TOKEN=305740ac6cafedc50db2859329941ea8500b82e5bd8662fd009d3585ad853b5c && percy exec -- cypress run",
+    "relatorio": "cypress run --reporter mochawesome"
   },
   "repository": {
     "type": "git",
