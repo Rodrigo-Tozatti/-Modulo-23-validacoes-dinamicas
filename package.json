@@ -1,14 +1,11 @@
 {
   "name": "modulo-23-validacoes-dinamicas",
   "version": "1.0.0",
-  "description": "Modulo 23 Validações Dinâmicas",
+  "description": "Aula validações dinâmicas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy.open": "npx cypress open",
-    "cy.run": "npx cypress run",
-    "percy": "set PERCY_TOKEN=305740ac6cafedc50db2859329941ea8500b82e5bd8662fd009d3585ad853b5c && percy exec -- cypress run",
-    "relatorio": "cypress run --reporter mochawesome"
+    "cy.open": "npx cypress open"
   },
   "repository": {
     "type": "git",
@@ -21,15 +18,9 @@
   },
   "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-23-validacoes-dinamicas#readme",
   "dependencies": {
-    "cypress": "^11.0.0",
-    "mocha": "^10.2.0"
+    "cypress": "^12.11.0"
   },
   "devDependencies": {
-    "@cypress/xpath": "^2.0.3",
-    "@percy/cli": "^1.24.0",
-    "@percy/cypress": "^3.1.2",
-    "cypress-multi-reporters": "^1.6.3",
-    "mocha-junit-reporter": "^2.2.0",
-    "mochawesome": "^7.1.3"
+    "@cypress/xpath": "^2.0.3"
   }
 }
